@@ -105,9 +105,9 @@ docs:   cập nhật tài liệu
 ## Liên hệ
 
 **TECOTEC Technology**  
-📧 tecotec@tecotec.com.vn  
-🌐 [tecotec.com.vn](https://tecotec.com.vn)
+📧 info@tecotec.tech  
+🌐 [tecotec.tech](https://tecotec.tech)
 
 ---
 
-*Brand Playbook v1.0 · Tháng 4/2026 · Phòng Marketing TECOTEC Technology*
+*Brand Playbook v1.0 · Tháng 4/2026 · Phòng Marketing TECOTEC Group*
