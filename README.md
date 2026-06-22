@@ -10,7 +10,7 @@
 
 Đây là tài liệu hướng dẫn nhận diện và giọng điệu thương hiệu chính thức của **TECOTEC Technology (T3)**. Playbook bao gồm 15 phần, từ nền tảng thương hiệu, nhận diện thị giác, đến quy tắc viết và vận hành nội dung.
 
-Site được xây dựng bằng **HTML + CSS + JavaScript thuần**, không phụ thuộc framework, tối ưu cho tốc độ tải và trải nghiệm đọc.
+Site được xây dựng bằng **HTML + CSS + JavaScript thuần**, không phụ thuộc framework, tối ưu cho tốc độ tải và trải nghiệm đọc. Nội dung hỗ trợ tiếng Việt và tiếng Anh từ một nguồn JSON song ngữ.
 
 ---
 
@@ -47,6 +47,7 @@ Site được xây dựng bằng **HTML + CSS + JavaScript thuần**, không ph�
 - 📌 **Navigation scroll-spy** — sidebar highlight section đang xem
 - 🖨️ **In trang tham khảo** — quick reference card tối ưu in ấn
 - 📱 **Responsive** — sidebar collapse trên mobile
+- 🌐 **Song ngữ VI/EN** — chuyển ngôn ngữ không tải lại trang, hỗ trợ link `?lang=en#section`
 
 ---
 
@@ -69,13 +70,27 @@ Site được xây dựng bằng **HTML + CSS + JavaScript thuần**, không ph�
 ## Tech stack
 
 ```
-index.html   — Cấu trúc HTML5 semantic, 15 sections
+index.html    — HTML shell và 15 section placeholder
+content.json — Nội dung song ngữ, mỗi khóa chứa cặp vi/en
+i18n.js      — Nạp nội dung, lưu lựa chọn và đồng bộ URL
 styles.css   — Design system (CSS custom properties), responsive, print
-main.js      — Scroll spy, clipboard, checklist, mobile nav, scroll reveal
+main.js      — Scroll spy, clipboard, checklist, mobile nav, modal, scroll reveal
 ```
 
 **Font:** IBM Plex Sans (Google Fonts)  
 **Không dùng** framework JS hoặc CSS library nào.
+
+## Cập nhật nội dung song ngữ
+
+Mọi nội dung hiển thị được quản lý trong `content.json`. Khi cập nhật một khóa, sửa đồng thời hai trường `vi` và `en` trong cùng bản ghi. Không thêm nội dung trực tiếp vào các phần tử có `data-i18n` hoặc `data-i18n-html` trong `index.html`.
+
+Chạy kiểm tra trước khi commit:
+
+```bash
+node scripts/validate-i18n.mjs
+```
+
+Script sẽ báo khóa thiếu, khóa thừa, bản tiếng Anh còn sót tiếng Việt và đường dẫn tài nguyên lệch giữa hai ngôn ngữ.
 
 ---
 
@@ -85,12 +100,14 @@ Site được deploy tự động qua **GitHub Pages** từ nhánh `main`.
 
 Để cập nhật nội dung:
 ```bash
-# 1. Chỉnh sửa index.html / styles.css / main.js
-# 2. Commit và push
+# 1. Chỉnh sửa content.json hoặc mã giao diện liên quan
+# 2. Kiểm tra i18n
+node scripts/validate-i18n.mjs
+# 3. Commit và push
 git add .
 git commit -m "chore: cập nhật nội dung [mô tả thay đổi]"
 git push origin main
-# 3. GitHub Pages tự động deploy trong ~2–5 phút
+# 4. GitHub Pages tự động deploy trong ~2–5 phút
 ```
 
 ---
