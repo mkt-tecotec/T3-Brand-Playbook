@@ -527,6 +527,23 @@ h6 { font-size: var(--text-h6); }
 .quick-ref .btn--print { background: rgba(252,252,252,0.1); color: var(--color-white); border: 1px solid rgba(252,252,252,0.2); }
 .quick-ref .btn--print:hover { background: rgba(252,252,252,0.2); }
 
+.site-footer {
+  text-align: center;
+  padding: var(--space-2xl) var(--space-md);
+  border-top: 1px solid var(--color-grey-2);
+  color: var(--color-text);
+  font-size: var(--text-small);
+  background: var(--color-white);
+}
+.site-footer a {
+  color: var(--color-blue);
+}
+.site-footer__note {
+  margin-top: var(--space-md);
+  font-size: var(--text-extra);
+  color: var(--color-text-muted);
+}
+
 /* ── Value Pair ─────────────────────────────────── */
 .value-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-lg); margin: var(--space-lg) 0; }
 .value-card { padding: var(--space-lg); border-left: 3px solid var(--color-blue); background: var(--color-grey-1); border-radius: 0 var(--radius-md) var(--radius-md) 0; }
