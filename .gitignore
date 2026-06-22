@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# Build / Temp
+*.log
+node_modules/
+.tmp/
+temp/
+
+# Secrets (none expected but safety)
+.env
+.env.local
+*.key
+*.pem
+
+# Oversized assets - contact MarCom for large source files
+assets/source/Image-style.ai
+
+# Design system export (local only)
+*.ai~   # Illustrator auto-save
+*.psd~  # Photoshop auto-save

@@ -38,8 +38,10 @@ Site được xây dựng bằng **HTML + CSS + JavaScript thuần**, không ph�
 
 ## Tính năng
 
-- 🎨 **Bảng màu tương tác** — click để copy HEX code
-- 📥 **Tải logo** — 6 định dạng: SVG, PNG, WebP, PDF, AI, White SVG
+- 🎨 **Bảng màu tương tác** — click để copy HEX code, kèm gallery tham khảo
+- 📥 **Tải logo** — 9 định dạng: SVG (3 variants) + PNG (3 variants) + WebP + PDF + AI
+- 🖼️ **Image galleries** — Color reference, Pattern, Typography, Logo Usage, Image Style
+- 📁 **Tải source files** — Color.ai, TYPO.ai, Logo-usage.ai, Image-style.ai, Overview.ai
 - 🔤 **Nút tải font** — link trực tiếp tới Google Fonts (IBM Plex Sans)
 - ✅ **Checklist bộ lọc nội dung** — tích các tiêu chí trước khi đăng
 - 📌 **Navigation scroll-spy** — sidebar highlight section đang xem
@@ -52,12 +54,15 @@ Site được xây dựng bằng **HTML + CSS + JavaScript thuần**, không ph�
 
 | File | Định dạng | Dùng cho |
 |------|-----------|---------|
-| `Logo TECOTEC Technology.svg` | SVG | Web, in ấn chất lượng cao |
-| `Logo-TECOTEC-Technology.png` | PNG transparent | Presentation, email |
+| `logo-TECOTEC-Technologies.svg` | SVG | Web, in ấn chất lượng cao |
+| `logo-TECOTEC-Technologies-white.svg` | SVG trắng | Nền tối, hero, video overlay |
+| `logo-TECOTEC-Technologies-black.svg` | SVG đen | Ấn phẩm đơn sắc |
+| `logo-TECOTEC-Technologies.png` | PNG | Presentation, email |
+| `logo-TECOTEC-Technologies-white.png` | PNG trắng | Nền tối |
+| `logo-TECOTEC-Technologies-black.png` | PNG đen | Đơn sắc |
 | `Logo-TECOTEC-Technology.webp` | WebP | Web, tối ưu tốc độ |
 | `Logo TECOTEC Technology.pdf` | PDF | In ấn chuyên nghiệp |
 | `Logo-TECOTEC-Technology.ai` | AI | Chỉnh sửa vector |
-| `logo-T3-white.svg` | SVG trắng | Nền tối |
 
 ---
 
