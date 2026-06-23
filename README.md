@@ -1,4 +1,4 @@
-# TECOTEC Technology — Brand Playbook v1.0
+# TECOTEC Technologies — Brand Playbook v1.0
 
 > **Brand Voice & Identity Playbook** · Site tĩnh triển khai trên GitHub Pages
 
@@ -8,7 +8,7 @@
 
 ## Giới thiệu
 
-Đây là tài liệu hướng dẫn nhận diện và giọng điệu thương hiệu chính thức của **TECOTEC Technology (T3)**. Playbook bao gồm 15 phần, từ nền tảng thương hiệu, nhận diện thị giác, đến quy tắc viết và vận hành nội dung.
+Đây là tài liệu hướng dẫn nhận diện và giọng điệu thương hiệu chính thức của **TECOTEC Technologies (T3)**. Playbook bao gồm 15 phần, từ nền tảng thương hiệu, nhận diện thị giác, đến quy tắc viết và vận hành nội dung.
 
 Site được xây dựng bằng **HTML + CSS + JavaScript thuần**, không phụ thuộc framework, tối ưu cho tốc độ tải và trải nghiệm đọc. Nội dung hỗ trợ tiếng Việt và tiếng Anh từ một nguồn JSON song ngữ.
 
@@ -61,9 +61,9 @@ Site được xây dựng bằng **HTML + CSS + JavaScript thuần**, không ph�
 | `logo-TECOTEC-Technologies.png` | PNG | Presentation, email |
 | `logo-TECOTEC-Technologies-white.png` | PNG trắng | Nền tối |
 | `logo-TECOTEC-Technologies-black.png` | PNG đen | Đơn sắc |
-| `Logo-TECOTEC-Technology.webp` | WebP | Web, tối ưu tốc độ |
-| `Logo TECOTEC Technology.pdf` | PDF | In ấn chuyên nghiệp |
-| `Logo-TECOTEC-Technology.ai` | AI | Chỉnh sửa vector |
+| `Logo-TECOTEC-Technologies.webp` | WebP | Web, tối ưu tốc độ |
+| `Logo TECOTEC Technologies.pdf` | PDF | In ấn chuyên nghiệp |
+| `Logo-TECOTEC-Technologies.ai` | AI | Chỉnh sửa vector |
 
 ---
 
@@ -126,7 +126,7 @@ docs:   cập nhật tài liệu
 
 ## Liên hệ
 
-**TECOTEC Technology**  
+**TECOTEC Technologies**  
 📧 info@tecotec.tech  
 🌐 [tecotec.tech](https://tecotec.tech)
 

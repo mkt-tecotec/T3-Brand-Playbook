@@ -5,7 +5,7 @@
 | Attribute | Value |
 |---|---|
 | **Project type** | Static brand guidelines website (HTML + CSS + JS) |
-| **Target users** | Marketing team, designers, engineers at TECOTEC Technology |
+| **Target users** | Marketing team, designers, engineers at TECOTEC Technologies |
 | **Scale** | Production (team-internal + public) |
 | **Tech stack** | Vanilla HTML5, CSS3 (custom properties), Vanilla JS |
 | **Deployment** | GitHub Pages (auto from `main` branch) |
@@ -34,9 +34,9 @@ T3-Brand-Playbook/
 │   ├── logo-TECOTEC-Technologies.png          # PNG color
 │   ├── logo-TECOTEC-Technologies-black.png    # PNG black
 │   ├── logo-TECOTEC-Technologies-white.png    # PNG white
-│   ├── Logo-TECOTEC-Technology.webp           # WebP (legacy)
-│   ├── Logo TECOTEC Technology.pdf            # For print
-│   └── Logo-TECOTEC-Technology.ai             # For editing
+│   ├── Logo-TECOTEC-Technologies.webp          # WebP (legacy)
+│   ├── Logo TECOTEC Technologies.pdf           # For print
+│   └── Logo-TECOTEC-Technologies.ai            # For editing
 │
 ├── assets/
 │   ├── images/                               # Web-optimized images
