@@ -21,7 +21,7 @@
   --color-grey-3: #D0D0D0;
 
   --font-sans: 'Inter', Arial, sans-serif;
-  --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+  --font-mono: 'Courier New', monospace;
 
   --text-h1: clamp(2.2rem, 4vw, 3.815rem);
   --text-h2: clamp(1.6rem, 2.8vw, 3.052rem);

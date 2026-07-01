@@ -42,7 +42,7 @@ Site được xây dựng bằng **HTML + CSS + JavaScript thuần**, không ph�
 - 📥 **Tải logo** — 9 định dạng: SVG (3 variants) + PNG (3 variants) + WebP + PDF + AI
 - 🖼️ **Image galleries** — Color reference, Pattern, Typography, Logo Usage, Image Style
 - 📁 **Tải source files** — Color.ai, TYPO.ai, Logo-usage.ai, Image-style.ai, Overview.ai
-- 🔤 **Nút tải font** — link trực tiếp tới Google Fonts (IBM Plex Sans)
+- 🔤 **Nút tải font** — link trực tiếp tới Google Fonts (Inter)
 - ✅ **Checklist bộ lọc nội dung** — tích các tiêu chí trước khi đăng
 - 📌 **Navigation scroll-spy** — sidebar highlight section đang xem
 - 🖨️ **In trang tham khảo** — quick reference card tối ưu in ấn
@@ -77,7 +77,7 @@ styles.css   — Design system (CSS custom properties), responsive, print
 main.js      — Scroll spy, clipboard, checklist, mobile nav, modal, scroll reveal
 ```
 
-**Font:** IBM Plex Sans (Google Fonts)  
+**Font:** Inter (Google Fonts)  
 **Không dùng** framework JS hoặc CSS library nào.
 
 ## Cập nhật nội dung song ngữ

@@ -15,7 +15,7 @@
 - `assets/source/` — Editable source files (AI) for download
 
 ## Brand Guidelines
-- **Font:** IBM Plex Sans (Google Fonts) + IBM Plex Mono
+- **Font:** Inter (Google Fonts)
 - **Colors:** Orange #FF9900, Blue #146EB4, Text #3B3B3B, Green #61CE70, Red #F5222D
 - **Tagline:** "Solutions to bring insight & drive innovation."
 
