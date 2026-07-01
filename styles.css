@@ -20,7 +20,7 @@
   --color-grey-2: #E8E8E8;
   --color-grey-3: #D0D0D0;
 
-  --font-sans: 'IBM Plex Sans', Arial, sans-serif;
+  --font-sans: 'Inter', Arial, sans-serif;
   --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
 
   --text-h1: clamp(2.2rem, 4vw, 3.815rem);
